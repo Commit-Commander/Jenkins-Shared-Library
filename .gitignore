@@ -1,0 +1,17 @@
+# Ignore local files with .local extension
+*.local
+
+# Ignore environment variable
+.env
+
+# Ignore editor-specific directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+
+# Ignore Visual Studio files
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
